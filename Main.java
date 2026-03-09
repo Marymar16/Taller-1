@@ -78,11 +78,11 @@ public class Main {
                 case 5:
 
                     System.out.println("ID cliente:");
-                    int cliente = sc.nextInt();
-                    for(Pedido ped : CRUDpedido.leerPedido()){
+                    int Idcliente = sc.nextInt();
+                    for(Pedido pe: CRUDpedido.leerPedido()){
 
-                        if(ped.getIdc() == cliente){
-                            System.out.println(ped);
+                        if(pe.getIdc() == Idcliente){
+                            System.out.println(pe);
                         }
 
                     }

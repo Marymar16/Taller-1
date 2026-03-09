@@ -20,7 +20,7 @@ throws IOException {
 public static List<Pedido> leerPedido() 
 throws IOException {
     List<Pedido> lista = new ArrayList<>();
-    Scanner sc = new Scanner(new File("Pedido.txt"));
+    Scanner sc = new Scanner(new File("pedido.txt"));
 
     while (sc.hasNextLine()) {
         String[] datos = sc.nextLine().split(",");

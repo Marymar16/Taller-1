@@ -18,6 +18,6 @@ public class Pedido {
     public void setProducto(String email){this.producto=producto;}
     @Override
     public String toString() {
-        return idcliente + "," + idpedido+ "," + categoria + "," + producto;
+        return idpedido + "," + idcliente+ "," + categoria + "," + producto;
     }
 }
